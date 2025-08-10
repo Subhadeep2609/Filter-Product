@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Product</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="filter-container">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search...">
+            <button id="search-btn">Search</button> 
+        </div>
+        <div class="category-container">
+        <div class="category-btn" data-category="all">All Products</div>
+        <div class="category-btn" data-category="electronics">Electronics</div>
+        <div class="category-btn" data-category="clothing">Clothing</div>
+        <div class="category-btn" data-category="home">Kitchen</div>
+        </div>
+    </div>
+
+
+    <div id="product-list">
+        <div class="product-item" data-category="electronics">
+            <h3>Redmi 13 5G</h3>
+            <img src="images/Redmi_13_5g.jpg" height="100px" width="auto" alt="redmi 13 5g image">
+            <p>Redmi 13 5G Prime Edition, Black Diamond, 8GB+128GB | India Debut SD 4 Gen 2 AE | 108MP Pro Grade Camera | 6.79in Largest Display in Segment.</p>
+        </div>
+        <div class="product-item" data-category="electronics">
+            <h3>Redmi Note 14 5G</h3>
+            <img src="images/Redmi_note_14_5g.jpg" height="100px" width="auto" alt="redmi note 14 5g image">
+            <p>Redmi Note 14 5G (Titan Black, 6GB RAM 128GB Storage) | Global Debut MTK Dimensity 7025 Ultra | 2100 nits Segment Brightest 120Hz AMOLED | 50MP Sony LYT 600 OIS+EIS Triple Camera.</p>
+        </div>
+        <div class="product-item" data-category="electronics">
+            <h3>Samsung Galaxy M05</h3>
+            <img src="images/Samsung_galaxy_M05.jpg" height="100px" width="auto" alt="samsung galaxy m05 image">
+            <p>Samsung Galaxy M05 (Mint Green, 4GB RAM, 64 GB Storage) | 50MP Dual Camera | Bigger 6.7" HD+ Display | 5000mAh Battery | 25W Fast Charging | 2 Gen OS Upgrade & 4 Year Security Update | Without Charger.</p>
+        </div>
+        <div class="product-item" data-category="electronics">
+            <h3>POCO C75 5G</h3>
+            <img src="images/Poco_C75_5G.jpg" height="100px" width="auto" alt="poco c75 5g image" >
+            <p>POCO C75 5G, Enchanted Green ,4 GB RAM | 64 GB ROM | Expandable Upto 1 TB, 17.48 cm (6.88 inch) HD+ Display,
+            50MP Rear Camera | 5MP Front Camera,4s Gen 2 5G Processor,5160 mAh Battery.
+            </p>
+        </div>
+        <div class="product-item" data-category="clothing">
+            <h3>Allen Solly</h3>
+            <img src="images/Allen_solly_t-shirt.jpg" height="100px" width="auto" alt="Allen solly t-shirt image" >
+            <p>
+                Men's Cotton Regular Fit Polo T-Shirt.Material composition:60% Cotton,40% Polyester,Pattern:Solid,Fit type :Regular Fit,Sleeve type:Half Sleeve.</p>
+        </div>
+
+        <div class="product-item" data-category="clothing">
+            <h3>Lymio</h3>
+            <img src="images/Lymio_t-shirt.jpg" height="100px" width="auto" alt="Lymio t-shirt image" >
+            <p>
+                Men's Cotton Regular Fit Polo T-Shirt.Material composition:60% Cotton,40% Polyester,Pattern:Solid,Fit type :Regular Fit,Sleeve type:Half Sleeve.</p>
+        </div>
+        <div class="product-item" data-category="clothing">
+            <h3>Jockey</h3>
+            <img src="images/Jockey_t-shirt.jpg" height="100px" width="auto" alt="Jockey t-shirt image" >
+            <p>
+                Jockey 2714 Men's Super Combed Cotton Rich Solid Round Neck Regular Fit Half Sleeve T-Shirt.Material composition:60% Cotton,40% Polyester,Pattern:Solid,Fit type:Regular Fit.</p>
+        </div>
+        <div class="product-item" data-category="clothing">
+            <h3>Peter England</h3>
+            <img src="images/Peter_England_t-shirt.jpg" height="100px" width="auto" alt="Peter England t-shirt image" >
+            <p>
+                Peter England Men's Regular Fit Insignia Half Sleeve Polo T-Shirt | Cotton Rich | Premium Pique Weave.Material composition:60% Cotton,40% Polyester,Pattern:Solid,Fit type:Regular Fit.</p>
+        </div>
+        <div class="product-item" data-category="home">
+            <img src="images/Wonderchef_coffee_machine.jpg" height="100px" width="auto" alt=" Wonderchef coffee machine image" >
+            <h3>Wonderchef Regenta Espresso Coffee Machine</h3>
+            <p>Coffee Machine, 19-bar, Make Espressos, Cappuccinos & Lattes at Home, With Steamer, Metal Porta Filter, Temperature Dial, 2 Year Warranty.</p>
+        </div>
+        <div class="product-item" data-category="home">
+            <img src="images/nutripro_juice_mixer.jpg" height="100px" width="auto" alt="Nutripro juice mixer image" >
+            <h3>NutriPro Juicer Mixer Grinder</h3>
+            <p>NutriPro Juicer Mixer Grinder - Smoothie Maker - 500 Watts (2 Jars & 1 Blade, Silver) - 2 Year Warranty.</p>
+        </div>
+        <div class="product-item" data-category="home">
+            <img src="images/Upliance_AI_Cooking_assistant.jpg" height="100px" width="auto" alt="Upliance AI Cooking assistant image" >
+            <h3>Upliance AI Cooking Assistant </h3>
+            <p>Cooks 500+ Recipes: Pav Bhaji, Pasta, Soup, Kadhai Paneer & More | 12 Cooking Modes | AI-Powered Cooking | Built-In Weighing Scale | Phone App | WiFi | 1-Year Warranty.</p>
+        </div>
+        <div class="product-item" data-category="electronics">
+            <img src="images/Asus_tuf_gaming_a15.jpg" height="100px" width="auto" alt="Asus tuf gaming a15 image" >
+            <h3>ASUS TUF Gaming A15</h3>
+            <p>AMD Ryzen 7 7435HS Gaming Laptop(NVIDIA RTX 3050-4GB/60W TGP/16GB RAM/512GB SSD/FHD/15.6"/144Hz/RGB KB/48WHr/Windows 11/Graphite Black/2.30 Kg).</p>
+        </div>
+        <div class="product-item" data-category="electronics">
+            <img src="images/HP_smartchoice_omen.jpg" height="100px" width="auto" alt="HP smartchoice omen image" >
+            <h3>HP Smartchoice Omen</h3>
+            <p>AMD Ryzen 7 7840Hs, 8GB RTX 4060(16GB DDR5, 1TB SSD) FHD, 165Hz,300Nits,2.32kg,RGB kb,Tempest Cooling,AI Gaming Laptop.</p>
+        </div>
+        <div class="product-item" data-category="clothing">
+            <img src="images/Boldfit_hoodie.jpg" height="100px" width="auto" alt="Boldfit hoodie image" >
+            <h3>Boldfit</h3>
+            <p>Poly Cotton Hoodies for Men Stylish Sweatshirt for Men Winter Wear for Men Solid Sweatshirts High Neck Winter Sweatshirts for Men Hoodie for Men Travel Winter Hoodies for Men & Boys Pullover.</p>
+        </div>
+        <div class="product-item" data-category="clothing">
+            <img src="images/Alan_Jones_clothing.jpg" height="100px" width="auto" alt="Alan Jones clothing hoodie image" >
+            <h3>Alan Jones Clothing</h3>
+            <p>Alan Jones Clothing Men’s Solid Hooded Sweatshirt | Drawstring Hood, Kangaroo Pocket, Ribbed Hem | Regular Fit | Sizes S–5XL | Multiple Colors Travel Winter Hoodies for Men & Boys Pullover.</p>
+        </div>
+        <div class="product-item" data-category="clothing">
+            <img src="images/Sleepynuts_hoodie.jpg" height="100px" width="auto" alt="Sleepynuts hoodie image" >
+            <h3>Sleepynuts</h3>
+            <p>Sleepynuts Men Cotton Fleece Regular Fit Hooded Full Sleeve Sweatshirt Solid Sweatshirts High Neck Winter Sweatshirts for Men Hoodie for Men Travel Winter Hoodies for Men & Boys Pullover.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
